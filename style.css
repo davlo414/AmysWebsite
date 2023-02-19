@@ -1,10 +1,44 @@
 /* style.css */
 
-div {
-    color: white;
-    background-color: black;
-}
 
 p {
     color: red;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item{
+    font-size: 20px;
+}
+.flex-container .lessonFormMain {
+    flex-direction: column;
+    background-color: white;
+}
+.flex-container .lessonRows {
+    flex-direction: row;
+}
+
+.tab-content {
+    display: none;
+    padding: 6px 6px;
+}
+
+input[type=text] {
+    padding: 10px;
+    border:0;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    width: 46%;
 }

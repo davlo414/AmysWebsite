@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,33 @@
     <title>English With Amy</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1> English with Amy</h1>
-    <p>Amy is a great English teacher.</p>
+
+<body onload=openTab("tab-home")>
+    <div class="menu-container">
+        <div class="menu">
+            <div class="menu-item" id="menu-home">Home</div>
+            <div class="menu-item" id="menu-schedule">Schedule a lesson</div>
+        </div>
+    </div>
+    <div id="tab-home" class="tab-content">
+        <h1> English with Amy</h1>
+        <p>Amy is a great English teacher.</p>
+    </div>
+    <div id="tab-schedule" class="tab-content">
+        <div class="flex-container">
+            <div class="lessonFormMain">
+                <div class="lessonRows">
+                    <input type="text" placeholder="Name" />
+                    <input type="text" placeholder="English Level" />
+                </div>
+                <div class="lessonRows">
+                    <input type="text" placeholder="Date" />
+                    <input type="text" placeholder="Time" />
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="js-file.js"></script>
+
 </html>
